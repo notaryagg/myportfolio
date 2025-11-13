@@ -2,73 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   :root {
-    /* catppuccin mocha */
-    --background: 240 21% 15%;
-    --foreground: 226 64% 88%;
+    /* new theme: Nebula Pinewave */
+    --background: 249 24% 12%;
+    --foreground: 245 50% 91%;
 
-    --card: 240 23% 18%;
-    --card-foreground: 226 64% 88%;
+    --card: 249 24% 15%;
+    --card-foreground: 245 50% 91%;
 
-    --popover: 240 23% 18%;
-    --popover-foreground: 226 64% 88%;
+    --popover: 249 24% 15%;
+    --popover-foreground: 245 50% 91%;
 
-    --primary: 217 92% 76%;
-    --primary-foreground: 240 21% 15%;
+    --primary: 257 65% 75%;
+    --primary-foreground: 249 24% 12%;
 
-    --secondary: 316 72% 86%;
-    --secondary-foreground: 240 21% 15%;
+    --secondary: 281 39% 67%;
+    --secondary-foreground: 249 24% 12%;
 
-    --muted: 233 13% 41%;
-    --muted-foreground: 227 16% 66%;
+    --muted: 249 16% 32%;
+    --muted-foreground: 245 23% 62%;
 
-    --accent: 267 84% 81%;
-    --accent-foreground: 240 21% 15%;
+    --accent: 281 39% 67%;
+    --accent-foreground: 249 24% 12%;
 
-    --destructive: 343 81% 75%;
-    --destructive-foreground: 240 21% 15%;
+    --destructive: 343 60% 72%;
+    --destructive-foreground: 249 24% 12%;
 
-    --border: 237 16% 23%;
-    --input: 237 16% 23%;
-    --ring: 217 92% 76%;
+    --border: 249 18% 18%;
+    --input: 249 18% 18%;
+    --ring: 257 65% 75%;
 
     --radius: 0.5rem;
 
-    /* catppuccin custom colors */
-    --mocha-rosewater: 10 56% 91%;
-    --mocha-gray: 228 14% 64%;
-    --mocha-flamingo: 0 59% 88%;
-    --mocha-pink: 316 72% 86%;
-    --mocha-mauve: 267 84% 81%;
-    --mocha-red: 343 81% 75%;
-    --mocha-maroon: 350 65% 71%;
-    --mocha-peach: 23 92% 75%;
-    --mocha-yellow: 41 88% 75%;
-    --mocha-green: 115 54% 76%;
-    --mocha-teal: 170 57% 73%;
-    --mocha-sky: 189 71% 73%;
-    --mocha-sapphire: 199 74% 69%;
-    --mocha-blue: 217 92% 76%;
-    --mocha-lavender: 236 100% 85%;
+    /* new theme: Nebula Pinewave */
+    --mocha-rosewater: 10 56% 88%;
+    --mocha-gray: 245 15% 70%;
+    --mocha-flamingo: 343 60% 72%;
+    --mocha-pink: 281 39% 67%;
+    --mocha-mauve: 257 65% 75%;
+    --mocha-red: 0 59% 70%;
+    --mocha-maroon: 353 39% 60%;
+    --mocha-peach: 25 70% 70%;
+    --mocha-yellow: 43 72% 72%;
+    --mocha-green: 155 37% 69%;
+    --mocha-teal: 185 45% 67%;
+    --mocha-sky: 197 41% 68%;
+    --mocha-sapphire: 205 36% 64%;
+    --mocha-blue: 217 60% 70%;
+    --mocha-lavender: 262 55% 78%;
 
-    --mocha-text: 226 64% 88%;
-    --mocha-subtext1: 227 35% 80%;
-    --mocha-subtext0: 228 24% 72%;
-    --mocha-overlay2: 229 17% 64%;
-    --mocha-overlay1: 231 13% 49%;
-    --mocha-overlay0: 233 13% 41%;
-    --mocha-surface2: 236 14% 35%;
-    --mocha-surface1: 237 16% 29%;
-    --mocha-surface0: 240 20% 23%;
-    --mocha-base: 240 21% 15%;
-    --mocha-mantle: 240 21% 12%;
-    --mocha-crust: 240 23% 10%;
+    --mocha-text: 245 50% 91%;
+    --mocha-subtext1: 245 35% 84%;
+    --mocha-subtext0: 245 25% 75%;
+    --mocha-overlay2: 249 17% 65%;
+    --mocha-overlay1: 249 16% 52%;
+    --mocha-overlay0: 249 15% 40%;
+    --mocha-surface2: 249 15% 33%;
+    --mocha-surface1: 249 16% 27%;
+    --mocha-surface0: 249 21% 20%;
+    --mocha-base: 249 24% 12%;
+    --mocha-mantle: 249 25% 10%;
+    --mocha-crust: 249 26% 8%;
 
-    /* glow */
-    --glow-primary: 217 92% 76%;
-    --glow-secondary: 316 72% 86%;
+    --glow-primary: 257 65% 75%;
+    --glow-secondary: 281 39% 67%;
   }
 }
 
@@ -111,7 +109,8 @@
   .smooth-transition {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
-    .term-line {
+
+  .term-line {
     position: relative;
     padding-left: 1rem;
   }
@@ -126,6 +125,5 @@
     width: 2px;
     background: hsl(var(--mocha-overlay1) / 0.8);
     border-radius: 2px;
-  
-}
+  }
 }
